@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>Psychic Game</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+</head>
+
+<body>
+	<div class="jumbotron">
+		<div class="container">
+			<h1 id="main-heading">The Psychic Game</h1>
+			<p>Try to guess the word im thinking, i'll only programmed 9 tries so give it a try! </p>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-12">
+							<h3>Wins:</h3>
+							<p><span id="winsCount"></span></p>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-12">
+							<h3>Losses:</h3>
+							<p><span id="lossesCount"></span></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="col-md-12">
+						<h3>Guesses left:</h3>
+						<p><span id="guessesLeft"></span></p>
+					</div>
+
+					<div class="col-md-12">
+						<h3>Your guesses so far:</h3>
+						<p><span id="guessesSoFar"></span></p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

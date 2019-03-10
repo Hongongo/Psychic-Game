@@ -1,0 +1,9 @@
+.jumbotron{
+    background-color: purple;
+}
+
+#main-heading, p, h3{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
